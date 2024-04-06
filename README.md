@@ -37,6 +37,9 @@ Uma pagina do Swagger irá se abrir no seu navegador padrão, mostrando todas as
 
 Ou se preferir abra o console (ex: CMD) na pasta  raiz do projeto, digite o comando "dotnet run --project ./PassIn.Api/PassIn.Api.csproj" e abra a seguinte URL no navegador: "http://localhost:5173/swagger/index.html".
 
+![image](https://github.com/abyssmado/nlw-unite-csharp/assets/85955679/f5724110-d2c1-4bd3-a304-f6f9da82abdd)
+
+
 *Assim abrirá seu Swagger mostrando as API's da aplicação.*
 
 ![image](https://github.com/abyssmado/nlw-unite-csharp/assets/85955679/8b76e4f6-4441-4a2c-bef9-b00ed7e681bd)
