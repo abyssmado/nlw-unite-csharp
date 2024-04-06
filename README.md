@@ -1,5 +1,5 @@
 # Gestão de eventos - Pass.In
-A aplicação realiza a gestão de eventos e participantes, permitindo que um usuário crie um evento, cadastre participantes e, caso eles compareçam, permite que seja registrado um check-in para cada um. Isso possibilita um controle dos eventos e dos participantes, oferecendo a capacidade de emitir relatórios das visitas.
+A aplicação back-end realiza a gestão de eventos e participantes, permitindo que um usuário crie um evento, cadastre participantes e, caso eles compareçam, permite que seja registrado um check-in para cada um. Isso possibilita um controle dos eventos e dos participantes, oferecendo a capacidade de emitir relatórios das visitas.
 ##
 # Tecnologias utilizadas
 Desenvolvida em .NET a aplicação utiliza dos seguintes NuGet Packages:
@@ -34,6 +34,10 @@ Va até a pasta "PassIn.Infraestructure", abra o arquivo "PassInDbContext.cs" e 
 Após configurar sua aplicação e ter baixado seu SGBD, aperte F5 no seu teclado e a aplicação irá iniciar.
 
 Uma pagina do Swagger irá se abrir no seu navegador padrão, mostrando todas as API's da aplicação.
+
+Ou se preferir abra o console (ex: CMD) na pasta  raiz do projeto, digite o comando "dotnet run --project ./PassIn.Api/PassIn.Api.csproj" e abra a seguinte URL no navegador: "http://localhost:5173/swagger/index.html".
+
+*Assim abrirá seu Swagger mostrando as API's da aplicação.*
 
 ![image](https://github.com/abyssmado/nlw-unite-csharp/assets/85955679/8b76e4f6-4441-4a2c-bef9-b00ed7e681bd)
 
