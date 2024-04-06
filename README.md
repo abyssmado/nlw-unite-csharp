@@ -1,3 +1,7 @@
+
+![Csharp](https://img.shields.io/badge/.NETCore-0000FF?style=for-the-badge&logo=csharp&logoColor=white)
+![Sqlite](https://img.shields.io/badge/SQLite-000000F?style=for-the-badge&logo=sqlite&logoColor=white)
+
 # Gestão de eventos - Pass.In
 A aplicação back-end realiza a gestão de eventos e participantes, permitindo que um usuário crie um evento, cadastre participantes e, caso eles compareçam, permite que seja registrado um check-in para cada um. Isso possibilita um controle dos eventos e dos participantes, oferecendo a capacidade de emitir relatórios das visitas.
 ##
@@ -21,6 +25,10 @@ Como banco de dados utiliza:
 # Como iniciar a aplicação
 Para iniciar clone o repositorio em sua maquina.
 
+   ``` shell
+    git clone https://github.com/abyssmado/nlw-unite-csharp.git
+ ```
+
 Abra a pasta do projeto com sua IDE de preferencia.
 
 Instale os pacotes.
@@ -36,7 +44,12 @@ Após configurar sua aplicação e ter baixado seu SGBD, aperte F5 no seu teclad
 
 Uma pagina do Swagger irá se abrir no seu navegador padrão, mostrando todas as API's da aplicação.
 
-Ou se preferir abra o console (ex: CMD) na pasta  raiz do projeto, digite o comando "dotnet run --project ./PassIn.Api/PassIn.Api.csproj" e abra a seguinte URL no navegador: "http://localhost:5173/swagger/index.html".
+Ou se preferir abra o console (ex: CMD) na pasta  raiz do projeto, digite o comando 
+``` shell 
+dotnet run --project ./PassIn.Api/PassIn.Api.csproj
+```
+
+ e abra a seguinte URL no navegador: "http://localhost:5173/swagger/index.html".
 
 ![image](https://github.com/abyssmado/nlw-unite-csharp/assets/85955679/e4e566dc-c72b-4ed1-9466-b2dd2bac8016)
 
