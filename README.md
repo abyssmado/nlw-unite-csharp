@@ -27,7 +27,7 @@ Instale os pacotes.
 
 Va até a pasta "PassIn.Infraestructure", abra o arquivo "PassInDbContext.cs" e mude o caminho da string Data Source na linha 15 para o caminho onde se encontra seu arquivo "PassInDb.db".
 
-![image](https://github.com/abyssmado/nlw-unite-csharp/assets/85955679/e4e566dc-c72b-4ed1-9466-b2dd2bac8016)
+![image](https://github.com/abyssmado/nlw-unite-csharp/assets/85955679/c6ce58e2-2f09-41f6-9c40-a1f1143d43de)
 
 
 *OBS: Pode ser que este caminho não funcione no seu PC, caso isso aconteça, pegue o caminho completo do arquivo na sua maquina, desde a pasta root do seu OS. Ex: "C:\\Users\\denis\\projetos\\nlw-unite-csharp\\PassInDb.db"*
@@ -38,7 +38,7 @@ Uma pagina do Swagger irá se abrir no seu navegador padrão, mostrando todas as
 
 Ou se preferir abra o console (ex: CMD) na pasta  raiz do projeto, digite o comando "dotnet run --project ./PassIn.Api/PassIn.Api.csproj" e abra a seguinte URL no navegador: "http://localhost:5173/swagger/index.html".
 
-![image](https://github.com/abyssmado/nlw-unite-csharp/assets/85955679/f5724110-d2c1-4bd3-a304-f6f9da82abdd)
+![image](https://github.com/abyssmado/nlw-unite-csharp/assets/85955679/e4e566dc-c72b-4ed1-9466-b2dd2bac8016)
 
 
 *Assim abrirá seu Swagger mostrando as API's da aplicação.*
