@@ -27,7 +27,8 @@ Instale os pacotes.
 
 Va até a pasta "PassIn.Infraestructure", abra o arquivo "PassInDbContext.cs" e mude o caminho da string Data Source na linha 15 para o caminho onde se encontra seu arquivo "PassInDb.db".
 
-![image](https://github.com/abyssmado/nlw-unite-csharp/assets/85955679/c6ce58e2-2f09-41f6-9c40-a1f1143d43de)
+![image](https://github.com/abyssmado/nlw-unite-csharp/assets/85955679/e4e566dc-c72b-4ed1-9466-b2dd2bac8016)
+
 
 *OBS: Pode ser que este caminho não funcione no seu PC, caso isso aconteça, pegue o caminho completo do arquivo na sua maquina, desde a pasta root do seu OS. Ex: "C:\\Users\\denis\\projetos\\nlw-unite-csharp\\PassInDb.db"*
 
