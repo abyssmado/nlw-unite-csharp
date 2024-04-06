@@ -465,3 +465,6 @@ $RECYCLE.BIN/
 *.swp
 
 .idea
+
+*.Properties
+Properties
